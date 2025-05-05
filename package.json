@@ -1,0 +1,20 @@
+{
+  "name": "otel-grafana-poc",
+  "version": "1.0.0",
+  "description": "POC for OpenTelemetry, Prometheus, and Grafana monitoring",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "@opentelemetry/api": "^1.4.1",
+    "@opentelemetry/sdk-node": "^0.39.1",
+    "@opentelemetry/auto-instrumentations-node": "^0.39.1",
+    "@opentelemetry/exporter-prometheus": "^0.39.1",
+    "@opentelemetry/resources": "^1.4.1",
+    "@opentelemetry/semantic-conventions": "^1.4.1",
+    "@opentelemetry/instrumentation-http": "^0.39.1",
+    "@opentelemetry/instrumentation-express": "^0.31.1"
+  }
+} 
