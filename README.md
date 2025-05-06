@@ -52,7 +52,6 @@ The sample application provides two endpoints:
 The application exposes various metrics through OpenTelemetry:
 - HTTP request duration
 - HTTP request count
-- Error rates
 - Node.js runtime metrics
 - Custom business metrics
 
