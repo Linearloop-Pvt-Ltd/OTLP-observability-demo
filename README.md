@@ -57,5 +57,6 @@ The application exposes various metrics through OpenTelemetry:
 - Custom business metrics
 
 ## Stopping the Services
-
-docker-compose down
+```bash
+   docker-compose down
+   ```
